@@ -57,7 +57,7 @@ export default {
     methods: {
         onSubmit() {
             console.log('onSubmit')
-            this.$store.commit('registerStart')
+            this.$store.dispatch('register')
         }
         // increaseCounter() {
         //     console.log('increaseCounter')
